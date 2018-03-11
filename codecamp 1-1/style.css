@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+}
+/*==BODY==*/
+body{
+	font-family: sans-serif;
+	font-size: 25px;
+	margin-left: 425px;
+	margin-right: 425px;
+	margin-top: 10px;
+	background-color: #CFCFCF;
+	border-style: double;
+}
+
+/*menu*/
+#head  {
+	list-style-type: none;
+	background-color: red;
+	padding-top: 1px;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.menu{
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+input[type=text], seclect{
+    width: 80%;
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: gray;
+}
+button {
+	width: 10%;
+    padding: 15px 9px ;
+   	margin-right: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: gray;
+}
+ul{
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 200px;
+}
+.x {
+	
+	float: right;
+	margin-top: -3px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-top: 3px;
+}
+
+li{
+	list-style-type: none;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	padding-top: 3px;
+}
+
+li:hover{
+	background-color: #CFCFCF;
+	cursor: pointer;
+	color: white;
+}
+li:hover .x{
+	background-color: red;
+	color: white;
+}
+li:active{
+	background-color: gray;
+	text-decoration: line-through;
+}
+li:active .x{
+	background-color: gray;
+	color: white;
+}
+.complete {
+	background: url("./tick.svg") no-repeat left;
+}
+
